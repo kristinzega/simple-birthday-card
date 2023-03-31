@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happ Birthday Mommy</title>
+
+    <!-- Link Css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="card-top">
+        <img src="img/Allura - Party-1.png" alt="Allura Party 1" />
+        <img src="img/Allura - Park.png" alt="Allura Park" />
+        <img src="img/Allura - Party-3.png" alt="Allura Party 3" />
+      </div>
+      <div class="card-middle">
+        <div class="column">
+          <h3>Selamat Ulang Tahun yang ke-56 Mama!</h3>
+          <p>
+            Semoga hari ini menjadi awal dari setahun penuh cinta, kebahagiaan, dan keberhasilan untuk Mama. Terima kasih atas segala dedikasi dan pengorbanan yang telah Mama lakukan untuk keluarga kita, Mama adalah sosok yang selalu
+            menginspirasi dan memberikan motivasi untuk terus berkembang. Semoga Tuhan selalu memberikan kesehatan dan kebahagiaan untuk Mama dalam setiap langkah kehidupan. Amin.
+          </p>
+        </div>
+        <img src="img/Stuck at Home - Birthday Cake.png" alt="Birthday Cake" width="240px" />
+      </div>
+    </div>
+
+    <!-- Javascript Confetti Effect -->
+    <script src="./confetti.js"></script>
+    <script>
+      // to start
+      const start = () => {
+        setTimeout(function () {
+          confetti.start();
+        }, 1000); // 1000 = 1 seconds
+      };
+
+      // to stop
+      const stop = () => {
+        setTimeout(function () {
+          confetti.stop();
+        }, 5000); // 5000 = 5 second
+      };
+      start();
+      stop();
+    </script>
+  </body>
+</html>
